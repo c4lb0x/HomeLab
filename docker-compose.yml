@@ -2,7 +2,7 @@ services:
   plex:
     image: lscr.io/linuxserver/plex:latest  # Especifica la imagen de Docker para Plex Media Server.
     container_name: plex  # Asigna el nombre "plex" al contenedor.
-    hostname: PlexNSH  # Asigna el nombre de host "PlexNSH" al contenedor.
+    hostname: PlexC4lB0X  # Asigna el nombre de host "PlexNSH" al contenedor.
     networks:  # Comentado: Posible configuración de red (no se usa en este momento).
     - media
     volumes:  # Define los volúmenes para montar directorios locales en el contenedor.
