@@ -151,7 +151,7 @@ services:
     restart: unless-stopped  # Reinicia el contenedor automáticamente a menos que se detenga explícitamente.
 
   readarr:
-    image: linuxserver/readarr:0.4.19-nightly  # Especifica la imagen de Docker para Readarr (versión de desarrollo).
+    image: lscr.io/linuxserver/readarr:develop  # Especifica la imagen de Docker para Readarr (versión de desarrollo).
     container_name: readarr  # Asigna el nombre "readarr" al contenedor.
     networks:  # Conecta el contenedor a la red "media".
       - media
