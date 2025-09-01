@@ -17,7 +17,7 @@ services:
       - PGID=${PGID}  # Establece el ID de grupo del proceso dentro del contenedor.
     ports:  # Comentado: Posible configuración de puertos (no se usa en este momento).
     - "32400:32400"
-    network_mode: host  # Usa el modo de red "host" (el contenedor usa la red del host directamente).
+#    network_mode: host  # Usa el modo de red "host" (el contenedor usa la red del host directamente).
     restart: unless-stopped  # Reinicia el contenedor automáticamente a menos que se detenga explícitamente.
 
   audiobookshelf:
